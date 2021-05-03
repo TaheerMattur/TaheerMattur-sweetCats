@@ -1,0 +1,16 @@
+    @font-face {
+    font-family: 'Cat-Font';
+    src:url('Cat-Font.ttf.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    h1 {
+        font-family: 'Cat-Font';
+        color: white;
+        font-size: 3rem;
+    }
+
+    input {
+    	outline: none;
+    }
