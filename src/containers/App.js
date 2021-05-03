@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
-import {cats} from '../components/Cats'
 import Scroll from '../components/Scroll'
 import ErrorBoundry from '../components/ErrorBoundry'
 import '../containers/App.css'
@@ -16,15 +15,13 @@ class App extends Component {
 	}
 
 	componentDidMount() {
-		fetch('https://jsonplaceholder.typicode.com/users').then(response => {
-			return response.json();
+		fetch('https://jsonplaceholder.typicode.com/users')
+		.then(response => {
+		return response.json();
 		})
 		.then(users => {
-			this.setState({cats : cats}) //  ==> this.setState({cats : users}) if we need user data;
-			//And because this is a cat application, I'm locally exporting it.
-			
+			this.setState({cats : users})
 		});
-		
 	}
 
  	onSearchChange = (event) => {
