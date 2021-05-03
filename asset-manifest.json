@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sweetCats/static/css/main.a56a9d9e.chunk.css",
-    "main.js": "/sweetCats/static/js/main.f7d60683.chunk.js",
-    "main.js.map": "/sweetCats/static/js/main.f7d60683.chunk.js.map",
+    "main.js": "/sweetCats/static/js/main.32ae764e.chunk.js",
+    "main.js.map": "/sweetCats/static/js/main.32ae764e.chunk.js.map",
     "runtime-main.js": "/sweetCats/static/js/runtime-main.5ab9b707.js",
     "runtime-main.js.map": "/sweetCats/static/js/runtime-main.5ab9b707.js.map",
     "static/css/2.fe359a49.chunk.css": "/sweetCats/static/css/2.fe359a49.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.fe359a49.chunk.css",
     "static/js/2.27270ca2.chunk.js",
     "static/css/main.a56a9d9e.chunk.css",
-    "static/js/main.f7d60683.chunk.js"
+    "static/js/main.32ae764e.chunk.js"
   ]
 }
